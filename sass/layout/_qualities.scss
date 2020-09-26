@@ -1,0 +1,45 @@
+/* особенности */
+.qualities {
+  margin-bottom: 94px;
+
+  &__item:not(:last-child) {
+    margin-right: 30px;
+    /* width: calc((100% - 2 * 30px) / 3); */
+  }
+  &__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    background-color: $primary-color;
+  }
+  &__title {
+    color: $title-text-color;
+    height: 16px;
+    left: 215px;
+    top: 774px;
+    @include font(14px, 1.15, 700);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin: 0px 0px 10px 0px;
+  }
+  &__text {
+    color: $primary-text-color;
+    width: 270px;
+    height: 75px;
+    left: 215px;
+    top: 800px;
+    @include font(14px, 1.71);
+    letter-spacing: 0.03em;
+    margin: 0px;
+  }
+}
+.main-title {
+  color: $title-text-color;
+  @include font(36px, 1.17, 700);
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin: 0px 0px 50px 0px;
+}
