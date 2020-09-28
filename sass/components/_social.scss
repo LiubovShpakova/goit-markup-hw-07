@@ -1,6 +1,7 @@
 .social {
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
 
   &__item:not(:last-child) {
     margin-right: 10px;
@@ -22,5 +23,8 @@
   &__link:focus {
     background-color: $accent-color;
     fill: $title-color;
+  }
+  .footer & {
+    margin-bottom: 0px;
   }
 }

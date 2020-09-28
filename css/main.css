@@ -422,6 +422,7 @@ img {
 .social {
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .social__item:not(:last-child) {
@@ -444,6 +445,10 @@ img {
 .social__link:hover, .social__link:focus {
   background-color: #2196f3;
   fill: #ffffff;
+}
+
+.footer .social {
+  margin-bottom: 0px;
 }
 
 /*Постоянные клиенты*/
@@ -627,6 +632,7 @@ footer .social__link {
   color: #757575;
   font-size: 12px;
   line-height: 1.17;
+  font-weight: 400;
   letter-spacing: 0.01em;
 }
 
